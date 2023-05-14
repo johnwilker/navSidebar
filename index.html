@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>navSidebar</title>
+    <meta name="description" content="Sibebar Challenge from Discover in RocketSeat">
+</head>
+<body>
+    <aside class="menu aside sidenav" id="mySidenav">
+        <header>
+            
+            <img src="./assets/logo.svg" alt="Logo image from Vet" id="img-header">
+            
+            <img src="./assets/menu.svg" alt="Sanduich Icon mySidenav" onclick="toggleNav()">
+            
+        </header>
+        <section>
+            <ul class="text-menu" id="text-menu">
+                <li><a href="#"><img src="./assets/search.svg" alt="Magnifying glass icon"><p>Search</p></a></li>
+                <li><a href="#"><img src="./assets/user.svg" alt="Client icon"><p>Clients</p></a></li>
+                <li><a href="#"><img src="./assets/pet.svg" alt="Paw of a Dog icon"><p>Pets</p></a></li>
+                <li><a href="#"><img src="./assets/grid.svg" alt="Grid icon"><p>Dashboard</p></a></li>
+                <li><a href="#"><img src="./assets/vet.svg" alt="Veterinarian icon"><p>Vets</p></a></li>
+                <li><a href="#"><img src="./assets/settings.svg" alt="Spanner for icon"><p>Settings</p></a></li>
+            </ul>
+        </section>
+        <footer>
+            <section>
+                <img id="footer-img" src="./assets/avatar.png" alt="Veterinarian image on veterinarian logged">
+                <h4 id="footer-name">Aline Silva</h4>
+                <p id="footer-description">Veterinarian</p>
+            </section>
+            <img id="logout" src="./assets/log-out.svg" alt="Log Out icon">
+        </footer>
+    </aside>
+    <div id="main">
+        <main class="dashboard">
+            <h1>Dashboard</h1>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
